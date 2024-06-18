@@ -1,0 +1,39 @@
+body {
+    background-color: gold;
+    width: 100vw;
+    height: auto;
+}
+
+.header1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-left: 30px;
+    border: 4mm ridge rgba(46, 173, 124, 0.726);
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.list {
+    list-style: none;
+    background-color: orangered;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+a {
+    color: black;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+}
